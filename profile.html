@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./prof.css">
+    <script src="./doctor.js"></script>
+</head>
+<body>
+    <div class="profile">
+        <div class="left">
+          <img src="./doc.jpg" class="doctor">
+        </div>
+        <div class="right">
+            <p>
+               <h4 class="head">PROFILE
+                <h3 class="name"> {firstname}{lastname}</h3>
+               </h4>
+               <h4 class="head">DOCTOR ID </h4>
+               <h5 class="content">${doctorid}</h5>
+               <h4 class="head">SPECIALITY</h4>
+               <h5 class="content" >
+                <button class="spec">Cardiology</button>
+                <button class="spec">Neurology</button>
+                <button class="spec">Psychology</button>
+               </h5>
+               <h4 class="head">DATE OF BIRTH</h4>
+               <h5 class="content">${dob}</h5>
+               <h4 class="head">GENDER</h4>
+               <h5 class="content">${gender}</h5>
+               <h4 class="head">CONTACT</h4>
+               <h5 class="content"> {phone} <br>{email}</h5>
+            </p>
+        </div>
+    </div>
+</body>
+</html>
